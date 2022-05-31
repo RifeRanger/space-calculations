@@ -1,0 +1,16 @@
+h1 {
+  font-family: fantasy;
+  color: white;
+  background-color: black;
+  text-align: center;
+}
+
+li {
+  color: black;
+  background-color: gray;
+  text-align: center;
+  display: inline;
+  margin-right: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 200%;
+}
