@@ -8,8 +8,8 @@
 
 <body>
   <script>
-    let massValue = document.getElementById("mass");
-    let accelerationValue = document.getAnimations("acceleration")
+    // let massValue = document.getElementById("mass").value;
+    // let accelerationValue = document.getElementById("acceleration").value
   </script>
   <h1>
     Space Math
@@ -30,7 +30,7 @@
       <p>
         F = <input type="text" name="mass" id="mass" value="mass" size="10" maxlength="20" /> kg X
         <input type="text" name="acceleration" id="acceleration" value="acceleration" size="10" maxlength="20" /> m/s<sup>2</sup>
-        <input type="button" value="Calculate" onClick="document.Newtons2ndLaw.solution.value=secondLaw(massValue, accelerationValue)"/>
+        <input type="button" value="Calculate" onClick="document.Newtons2ndLaw.solution.value=secondLaw(document.getElementById(mass).value, document.getElementById(acceleration).value)"/>
         <br />
         F = <input type="text" name="solution" value="">
       </p>
