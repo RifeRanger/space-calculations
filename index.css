@@ -5,12 +5,15 @@ h1 {
   text-align: center;
 }
 
+ul {
+  text-align: center;
+}
+
 li {
   color: black;
-  background-color: gray;
   text-align: center;
   display: inline;
-  margin-right: 20px;
+  margin-right: 40px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 200%;
 }
