@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<head>
+  <title>Basics of Space Mechanics</title>
+  <link rel="stylesheet" type="text/css" href="index.css" />
+  <script src="./helper_functions/basic_newton_laws.js" type="text/javascript"></script>
+</head>
+
+<body>
+  <script>
+    let massValue = document.getElementById("mass");
+    let accelerationValue = document.getAnimations("acceleration")
+  </script>
+  <h1>
+    Space Math
+  </h1>
+
+  <ul>
+    <li><a href="./basics.html">Basics</a></li>
+    <li><a href="./orbital_mechanics.html">Orbital Mechanics</li>
+    <li><a href="./rocketry.html">Rocketry</a></li>
+  </ul>
+
+  <div class="chalkboard">
+    <form name="Newtons2ndLaw">
+      <p>
+        Newton's Second Law (F = ma):
+      </p>
+      <hr />
+      <p>
+        F = <input type="text" name="mass" id="mass" value="mass" size="10" maxlength="20" /> kg X
+        <input type="text" name="acceleration" id="acceleration" value="acceleration" size="10" maxlength="20" /> m/s<sup>2</sup>
+        <input type="button" value="Calculate" onClick="document.Newtons2ndLaw.solution.value=secondLaw(massValue, accelerationValue)"/>
+        <br />
+        F = <input type="text" name="solution" value="">
+      </p>
+    </form>
+  </div>
+</body>

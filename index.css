@@ -1,12 +1,18 @@
 h1 {
   font-family: fantasy;
+  font-size: 4em;
   color: white;
   background-color: black;
   text-align: center;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  margin-bottom: 0%;
 }
 
 ul {
   text-align: center;
+  background-color: white;
+  margin-top: 0%;
 }
 
 li {
@@ -16,4 +22,29 @@ li {
   margin-right: 40px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 200%;
+}
+
+a {
+  text-decoration: none;  
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: black;
+  text-transform: uppercase;
+}
+
+a:active {
+  color: black;
+}
+
+div.chalkboard {
+  background-color: darkslategray;
+  border: 0.5em;
+  border-color: black;
+  font-family: cursive;
+  color: white;
 }
